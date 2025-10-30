@@ -1,2 +1,5 @@
 # AdaptiveBackoff
 An Adaptive Backoff Mechanism for Optimization of IEEE 802.11 MAC Performance
+
+Abstract—The performance of wireless networks, particularly under high traffic, is limited by contention and inefficiencies in the MAC layer. This report explores an Adaptive Backoff mechanism designed to address the limitations of the IEEE 802.11 Distributed Coordination Function (DCF) and its Binary Exponential Backoff (BEB) scheme. Inspired by recent advances in contention resolution, the Adaptive Backoff dynamically adjusts contention window (CW) parameters, prioritizes stations based on queue length and channel conditions, and incorporates smoothing to stabilize performance. Simulation results demonstrate that Adaptive Backoff consistently achieves comparable or better throughput than traditional DCF while maintaining comparable collision rates. This methodology sets the foundation for scalable, adaptive MAC protocols.
+Keywords—IEEE 802.11, Adaptive Backoff, Queueing Theory, Probability, Contention Window, Distributed Coordination Function (DCF), Binary Exponential Backoff (BEB), Wireless Networks, Medium Access Control (MAC), Collision Avoidance.
